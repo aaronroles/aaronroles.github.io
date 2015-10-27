@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color: #81776E;
+	width: 100%;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+nav
+{
+	background-color: #543719;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width : 100%;
+	text-align: center;
+}
+
+.navigation
+{
+	font-size: 25px;
+	/*border: 1px solid black;*/
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	display: inline;
+}
+
+a:link, a:visited
+{
+	color: #F3F1F2;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+section
+{
+	background-color: #81776E;
+	margin-top: 18%;
+	margin-left: 37%;
+}
+
+#contactSection, #menuSection
+{
+	margin-top: 11%;	
+}
+
+#contactSection
+{
+	margin-left: 36%;	
+}
+
+#menuSection
+{
+	margin-left: 20%;
+}
+
+#homeContent
+{
+	border: 1px solid black;
+	background-color: #594B3E;
+	color: #F3F1F2;
+	width:35%;
+	text-align: center;
+}
+
+h3
+{
+	margin: 0;
+}
+
+footer
+{
+	background-color: #33292A;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.social-media
+{
+	padding: 1%;
+}
+
+#email, #phoneNumber
+{
+	display: inline;
+	color: #F3F1F2;
+	margin-left: 5%;
+}
+
+#inputMsg
+{
+	width: 250px;
+	height: 60px;
+}
+
+#contactContent
+{
+	border: 1px solid black;
+	background-color: #594B3E;
+	color: #F3F1F2;
+	width: 35%;
+	padding: 1%;
+}
+
+table
+{
+	background-color: #594B3E;
+	color: #F3F1F2;
+	border: solid 1px #F3F1F2;
+	text-align: center;
+	width: 75%;
+}
+
+td
+{
+	padding: 1%;
+}
+
+/* Bootstrap CSS */
+
+.col-md-1 
+{
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.row
+ {
+  margin-right: -6px;
+  margin-left: -6px;
+}

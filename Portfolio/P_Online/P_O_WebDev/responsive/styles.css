@@ -1,0 +1,557 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* index.html and the nav, footer for the other pages */ 
+
+body
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	background-color:#C0C0C0;
+}
+
+nav
+{
+	width:90%;
+	text-align:center;
+	margin-left:5%;
+	word-spacing:2px;
+	
+}
+
+nav > div
+{
+	background-color:white;
+	padding:2px;
+	border-radius:8px;
+}
+
+.nav
+{
+	padding:2px;
+	border-radius:8px;
+}	
+
+.nav:link, .nav:visited
+{
+	color:red;
+	text-decoration:none;
+}
+
+.nav:active, .nav:hover
+{
+	color:white;
+	background-color:red;
+	font-weight:bold;
+}
+
+nav + section
+{
+	background-color:white;
+	width: 50%;
+	float:left;
+	margin-left:12.5%;
+	border-top: 4px solid #C0C0C0;
+	border-right: 4px solid #C0C0C0;
+	border-radius:8px;
+}
+
+nav + section > div
+{
+	padding-left:30px;
+}
+
+.projects{
+	width:90%;
+	border: 1px red solid;
+	border-radius: 8px;
+}
+
+section + section
+{
+	background-color:white;
+	width:25%;
+	float:left;
+	border-top: 4px solid #C0C0C0;
+	border-radius:8px;
+}
+
+footer
+{
+	width:90%;
+	margin-left:5%;
+	background-color:white;
+	float:left;
+	border-top: 4px solid #C0C0C0;
+	border-radius:8px;
+}
+
+ul
+{
+	display:inline;	
+}
+
+li
+{
+	padding-left:30px;
+	list-style:none;
+}
+
+#contact
+{
+	padding-left:30px;
+}
+
+.rightcol
+{
+	padding-left:30px;
+	padding-right:10px;
+}
+
+dt, dl
+{
+	float:left;
+	width:60%;
+	padding:10px;
+	padding-left:20px;
+	font-style:italic;
+}
+
+dd
+{
+	float:left;
+	width:60%;
+	display:block;
+}
+
+footer > img
+{
+	float:left;
+	padding:5px;
+	padding-left:85px;
+	padding-top:15px;
+}
+
+div + a
+{
+	padding-left:5px;
+}
+
+/* profile.html, photos.html, downloads.html, contact.html */
+
+#content
+{
+	background-color:white;
+	width: 75%;
+	float:left;
+	margin-left:12.5%;
+	border-top: 4px solid #C0C0C0;
+	border-radius:8px;
+}
+
+#content > h2
+{
+	padding-left: 20px;
+}
+
+/* profile.html */
+
+#content > p
+{
+	text-align:center;
+	font-size:14px;
+	padding: 5px;
+}
+
+/* photos.html */
+.gallery
+{
+	width:30%;
+	padding:5px;
+	padding-left:20px;
+}
+
+/* contact.html */
+
+fieldset
+{
+	margin-right:25%;
+	margin-left:5%;
+	border:none;
+	float:left;
+	padding-left:20px;
+}
+
+/* MOBILE */
+
+@media screen and (min-width: 200px) and (max-width: 500px)
+{
+
+/* index.html and the nav, footer for the other pages */ 
+	body
+	{
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+		background-color:#C0C0C0;
+	}
+	
+	nav
+	{
+		
+	}
+	
+	nav > div
+	{
+		width:100%;
+		background-color:white;
+		padding:1px;
+		border-radius:4px;
+	}
+	
+	.nav
+	{
+		padding:1px;
+		border-radius:4px;
+		font-size:14px;
+	}	
+	
+	.nav:link, .nav:visited
+	{
+		color:red;
+		text-decoration:none;
+	}
+	
+	.nav:active, .nav:hover
+	{
+		color:white;
+		background-color:red;
+	}
+	
+	nav + section
+	{
+		background-color:white;
+		width:90%;
+		margin-left:5%;
+		float:left;
+		border-top: 4px solid #C0C0C0;
+		border-radius:4px;
+	}
+	
+	nav + section > div
+	{
+		padding-left:30px;
+	}
+	
+	.projects
+	{
+		border: 1px red solid;
+		border-radius: 8px;
+		width:70%;
+		height:25%;
+	}
+	
+	section + section
+	{
+		background-color:white;
+		margin-left:5%;
+		width:90%;
+		float:left;
+		border-top: 8px solid #C0C0C0;
+		border-radius:8px;
+	}
+	
+	ul
+	{
+		display:inline;
+	}
+	
+	li
+	{
+		padding-left:30px;
+		list-style:none;
+	}
+	
+	#contact
+	{
+		padding-left:30px;
+	}
+	
+	.rightcol
+	{
+		padding-left:30px;
+		padding-right:10px;
+	}
+	
+	footer
+	{
+		margin-left:5%;
+		background-color:white;
+		float:left;
+		border-top: 4px solid #C0C0C0;
+		border-radius:8px;
+	}
+	
+	dt, dl
+	{
+		float:left;
+		width:90%;
+		padding:5%;
+		font-style:italic;
+	}
+	
+	dd
+	{
+		float:left;
+		width:90%;
+		display:block;
+	}
+	
+	footer > img
+	{
+		float:left;
+		padding:5px;
+		padding-left:11%;
+		padding-top:15px;
+		width:75%;
+		height:25%;
+	}
+	
+	div + a
+	{
+		padding-left:5px;
+	}
+	
+/* profile.html, photos.html, downloads.html, contact.html */
+	
+	#content
+	{
+		background-color:white;
+		width: 90%;
+		float:left;
+		margin-left:5%;
+		border-top: 4px solid #C0C0C0;
+		border-radius:8px;
+	}
+	
+	#content > h2
+	{
+		padding-left: 20px;
+	}
+	
+/* profile.html */
+	
+	#content > p
+	{
+		text-align:center;
+		font-size:14px;
+		padding: 5px;
+	}
+	
+/* photos.html */
+	.gallery
+	{
+		width:45%;
+		padding:2%;
+		height:auto;
+	}
+	
+/* contact.html */
+	
+	fieldset
+	{
+		margin-right:25%;
+		margin-left:5%;
+		border:none;
+		float:left;
+		padding-left:20px;
+		font-size:12px;
+	}
+	
+	textarea
+	{
+		width:95%;	
+	}
+		
+}
+
+/* TABLET */
+
+@media screen and (min-width: 501px) and (max-width: 1023px)
+{
+	/* index.html and the nav, footer for the other pages */ 
+	body
+	{
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+		background-color:#C0C0C0;
+	}
+	
+	nav
+	{
+		
+	}
+	
+	nav > div
+	{
+		width:100%;
+		background-color:white;
+		padding:1px;
+		border-radius:4px;
+	}
+	
+	.nav
+	{
+		padding:1px;
+		border-radius:4px;
+		font-size:14px;
+	}	
+	
+	.nav:link, .nav:visited
+	{
+		color:red;
+		text-decoration:none;
+	}
+	
+	.nav:active, .nav:hover
+	{
+		color:white;
+		background-color:red;
+	}
+	
+	nav + section
+	{
+		background-color:white;
+		width:40%;
+		margin-left:10%;
+		float:left;
+		border-top: 4px solid #C0C0C0;
+		border-radius:4px;
+	}
+	
+	nav + section > div
+	{
+		padding-left:30px;
+	}
+	
+	.projects
+	{
+		border: 1px red solid;
+		border-radius: 8px;
+		width:90%;
+	}
+	
+	section + section
+	{
+		background-color:white;
+		width:40%;
+		float:left;
+		border-top: 4px solid #C0C0C0;
+		border-radius:4px;
+	}
+	
+	ul
+	{
+		display:inline;
+	}
+	
+	li
+	{
+		padding-left:30px;
+		list-style:none;
+	}
+	
+	#contact
+	{
+		padding-left:30px;
+	}
+	
+	.rightcol
+	{
+		padding-left:30px;
+		padding-right:10px;
+	}
+	
+	footer
+	{
+		margin-left:5%;
+		background-color:white;
+		float:left;
+		border-top: 4px solid #C0C0C0;
+		border-radius:8px;
+	}
+	
+	dt, dl
+	{
+		float:left;
+		width:50%;
+		font-style:italic;
+	}
+	
+	dd
+	{
+		float:left;
+		width:50%;
+		display:block;
+	}
+	
+	footer > img
+	{
+		float:left;
+		padding:5%;
+		width:35%;
+	}
+	
+	div + a
+	{
+		padding-left:5px;
+	}
+	
+/* profile.html, photos.html, downloads.html, contact.html */
+	
+	#content
+	{
+		background-color:white;
+		width: 80%;
+		float:left;
+		margin-left:10%;
+		border-top: 4px solid #C0C0C0;
+		border-radius:8px;
+	}
+	
+	#content > h2
+	{
+		padding-left: 20px;
+	}
+	
+/* profile.html */
+	
+	#content > p
+	{
+		text-align:center;
+		font-size:14px;
+		padding: 5px;
+	}
+	
+/* photos.html */
+	.gallery
+	{
+		width:45%;
+		padding:2%;
+		height:auto;
+	}
+	
+/* contact.html */
+	
+	fieldset
+	{
+		margin-right:25%;
+		margin-left:5%;
+		border:none;
+		float:left;
+		padding-left:20px;
+		font-size:12px;
+	}
+	
+	textarea
+	{
+		width:95%;	
+	}
+
+}

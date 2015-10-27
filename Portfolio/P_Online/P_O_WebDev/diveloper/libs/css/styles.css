@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family: GroteskBold;
+	src:url('../../fonts/GroteskBoldDemo.otf');
+}
+
+body
+{
+	background-color:#EDF2F4;
+	font-family: GroteskBold;
+}
+
+#diveloperStageCenter
+{
+	width:70%;
+	height:860px;
+	float:left;
+	background-color:#EDF2F4;
+	margin-left:15%;
+}
+
+#header
+{
+	width:98%;	
+	background-color:#BFC0C0;
+	float:left;
+	margin-left:1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+#headerName
+{
+	margin-left:43%;
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+
+#workArea
+{
+	width: 62%;
+	height: 360px;
+	background-color:#BFC0C0;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	text-align: center;
+}
+
+#targetDiv
+{
+	position: relative;
+	margin: 5%;
+	background-color:#020122;
+	width: 90px;
+	height: 90px;
+	word-break: break-all;
+	display: inline-block;
+}
+
+#delete
+{
+	width: 15px;
+	position: relative;
+	color: #FF521B;
+	font-size: 22px;
+	cursor: pointer;
+	left: 10px;
+	top: 90px;
+	text-decoration:none;
+}
+
+div.ui-tooltip
+{
+	font-size:12px;	
+	padding:3px;
+}
+
+#exportHTML, #exportCSS, #exportImg
+{
+	background-color: #738290;
+	color: #EFEBEA;
+	border: 0;
+	font-family: GroteskBold;
+	position: absolute;
+}
+
+#exportHTML:hover, #exportCSS:hover, #exportImg:hover
+{
+	background-color: #020122;
+}
+
+#exportHTML
+{
+	top: 435px;	
+	margin-left: 140px;
+}
+
+#exportCSS
+{
+	top: 435px;	
+	margin-left: 250px;	
+}
+
+#exportImg
+{
+	top: 435px;	
+	margin-left: 355px;	
+}
+
+#settings
+{
+	width: 35%;
+	height: 360px;
+	background-color:#BFC0C0;
+	float: left;
+	margin-right: 1%;
+}
+
+#fontChoice
+{
+	display: block;	
+}
+
+.h3_headings
+{
+	margin: 0;
+	margin-left: 5%;	
+}
+
+.settingsElements
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 4%; 	
+}
+
+.sp-replacer.sp-light
+{
+	margin-left: 5%;
+	margin-bottom: 4%; 
+}
+
+#otherSettings
+{
+	width:98%;	
+	height: 410px;
+	background-color:#738290;
+	float:left;
+	margin-left:1%;
+	margin-right: 1%;
+	margin-top: 1%;	
+	margin-bottom: 1%;
+}
+
+#sizeHeading, #cornerHeading, #borderHeading, #paddingHeading, #settingsHeading
+{
+	cursor:pointer;	
+}
+
+#divSizeChanger
+{
+	width:47%;
+	height:	200px;
+	background-color:#BFC0C0;
+	float:left;
+	margin-left:2%;
+	margin-right: 1%;
+	margin-top: 2%;	
+	margin-bottom: 1%;
+}
+
+.otherSettingsElements
+{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 4%; 	
+}
+
+#divCorner
+{
+	width:47%;
+	height:	150px;
+	background-color:#BFC0C0;
+	float:left;
+	margin-left:2%;
+	margin-right: 1%;
+	margin-top: 1%;	
+	margin-bottom: 1%;
+}
+
+#divBorderChanger
+{
+	width:47%;
+	height:	200px;
+	background-color:#BFC0C0;
+	float:left;
+	margin-left:1%;
+	margin-right: 1%;
+	margin-top: 2%;	
+	margin-bottom: 1%;
+}
+
+
+#divPaddingChanger
+{
+	width:47%;
+	height:	150px;
+	background-color:#BFC0C0;
+	float:left;
+	margin-left:1%;
+	margin-right: 1%;
+	margin-top: 1%;	
+	margin-bottom: 1%;
+}
+
+h2
+{
+	margin-left:8%;	
+}

@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Diveloper</title>
+<link rel="stylesheet" href="libs/css/styles.css" type="text/css" > 
+<link rel="stylesheet" href="libs/css/jquery-ui.css" >
+<link rel="stylesheet" href="libs/css/spectrum.css" >
+</head>
+
+<body>
+<div id="diveloperStageCenter">
+
+<button id="exportHTML">Export HTML</button>
+<button id="exportCSS">Export CSS</button>
+<button id="exportImg">Export Image</button>
+<a href="#" title="Start again" id="delete">X</a>
+
+	<div id="header">
+		<h1 id="headerName">DIVELOPER</h1>
+	</div>
+
+	<div id="workArea">
+    	
+		<div id="targetDiv"></div>
+	</div>
+	<div id="settings">
+    	<h2 id="settingsHeading">&#9776; Settings</h2>
+        <div id="settingsContainer">
+        <textarea id="textArea" placeholder="Type text here..." class="settingsElements"></textarea>
+        
+        <h3 class="h3_headings">Font choice</h3>
+        <select id="fontChoice" class="settingsElements">
+        	<option value="GroteskBold">Default</option>
+			<option value="Times New Roman">Times New Roman</option>
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Cambria">Cambria</option>
+            <option value="Impact">Impact</option>
+            <option value="Calibri">Calibri</option>
+		</select>
+        
+        <h3 class="h3_headings">Font size</h3>
+        <div id="fontSize" class="settingsElements"></div>
+        
+        <h3 class="h3_headings">Font colour</h3>
+        <input type="text" id="fontColour" class="settingsElements">
+        
+        <h3 class="h3_headings">Background colour</h3>
+        <input type="text" id="bgColour" class="settingsElements">
+        </div>
+    </div>
+    
+
+	<div id="otherSettings">
+		<div id="divSizeChanger">
+        	<h2 id="sizeHeading">&#9776; Size</h2>
+            
+            <div id="sizeChanger">
+            	<h3 class="h3_headings">Width</h3>
+            	<div id="divWidth" class="otherSettingsElements"></div>
+            
+            	<h3 class="h3_headings">Height</h3>
+            	<div id="divHeight" class="otherSettingsElements"></div>
+            </div>
+        </div>  
+          
+    	<div id="divBorderChanger">
+        	<h2 id="borderHeading">&#9776; Border</h2>
+            
+            <div id="borderchanger">
+            	<h3 class="h3_headings">Border Size</h3>
+            	<div id="divBorderSize" class="otherSettingsElements"></div>
+            
+            	<h3 class="h3_headings">Border Colour</h3>
+            	<input type="text" id="divBorderColour" class="otherSettingsElements">
+            </div>
+        </div>
+        
+   		<div id="divCorner">
+        	<h2 id="cornerHeading">&#9776; Corner</h2>
+            
+            <div id="cornerChanger">
+            	<h3 class="h3_headings">Roundness</h3>
+            	<div id="divCornerRoundness" class="otherSettingsElements"></div>
+            </div>
+        </div>
+        
+    	<div id="divPaddingChanger">
+        	<h2 id="paddingHeading">&#9776; Padding</h2>
+            
+            <div id="paddingChanger">
+            	<h3 class="h3_headings">Padding Size</h3>
+            	<div id="divPadding" class="otherSettingsElements"></div>
+            </div>
+        </div>
+	</div>
+</div>
+
+<script type="text/javascript" src="libs/js/jQuery.js"></script>
+<script type="text/javascript" src="libs/js/script.js"></script>
+<script type="text/javascript" src="libs/js/jquery-ui.js"></script>
+<script type="text/javascript" src="libs/js/spectrum.js"></script>
+<script type="text/javascript" src="libs/js/html2canvas.js"></script>
+
+</body>
+</html>

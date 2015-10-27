@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Manager</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+
+    <table id="headings">
+    	<thead>
+          <tr>
+            <th id="firstNameHeading">First Name</th>
+            <th id="lastNameHeading">Last Name</th>
+            <th id="dobHeading">Date Of Birth</th>
+            <th id="phoneHeading">Phone Number</th>
+            <th id="emailHeading">Email</th>
+          </tr>
+      </thead>
+      
+      <tbody id="info">
+      </tbody>
+    </table>
+    
+    <br>
+    
+    <form id="addDetails">
+        <label for="firstNameField">First Name</label><br>
+        <input type="text" id="firstNameField" placeholder="Enter first name..."><br>
+        <label for="lastNameField">Last Name</label><br>
+        <input type="text" id="lastNameField" placeholder="Enter last name..."><br>
+        <label for="dobField">Date Of Birth</label><br>
+        <input type="date" id="dobField" placeholder="DD/MM/YYYY..."><br>
+        <label for="phoneNumField">Phone Number</label><br>
+        <input type="text" id="phoneNumField" placeholder="Enter phone number..."><br>
+        <label for="emailField">Email</label><br>
+        <input type="text" id="emailField" placeholder="Enter email..."><br>
+        <input type="button" value="Add Contact" id="addContactButton">
+    </form>
+    
+</div>
+
+</body>
+</html>

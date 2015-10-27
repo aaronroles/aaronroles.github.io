@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+	margin-left: 1%;
+	margin-bottom: 2%;
+	margin-top: 1%;
+	padding: 2%;
+	padding-right: 0;
+	background-color: #E8E1E1;
+	border: solid 1px black;
+	width: 50%;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#headings
+{
+	border: solid 1px black;
+	font-size: 14px;
+	width: 90%;
+	background-color: #fff;
+}
+
+#info
+{
+	font-size: 12px;
+	width: 90%;
+}
+
+th
+{
+	border: solid 1px black;
+	width: 20%;
+	text-align: left;
+	padding-left: 1%;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+th:hover
+{
+	background-color: #000;	
+	color: #fff;
+}
+
+th:active
+{
+	background-color:#373737;
+}
+
+td
+{
+	border: solid 1px black;
+	width: 16.6%;
+	background-color: #FFFFFF;
+}
+
+input
+{
+	margin: 1%;
+	width: 50%;
+}
+
+#addContactButton
+{
+	padding: 2%;
+}
+
+#deleteCell
+{
+	cursor: pointer;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
