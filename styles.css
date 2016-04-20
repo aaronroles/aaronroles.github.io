@@ -17,6 +17,17 @@ body
 	margin:0;
 }
 
+#TYP
+{
+	color:#000;
+	background-color: #fff;
+}
+
+#TYP:hover
+{
+	font-weight:bold;
+}
+
 #logo
 {	
 	width: 10vw;
@@ -116,7 +127,6 @@ h3
 #description
 {
 	margin: 1%;
-	margin-top: 8%;	
 	font-size: 1.2vw;
 }
 
